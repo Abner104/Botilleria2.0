@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Botilleria</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fa-solid fa-bottle-droplet"></i> Botilleria </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Buscar producto..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart" id="cart-icon"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#inicio">Inicio</a>
+                <a href="#destacados">Destacados</a>
+                <a href="#licores">Licores</a>
+                <a href="marcas">Marcas</a>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="#inicio" class="fas fa-home"></a>
+        <a href="#destacados" class="fas fa-list"></a>
+        <a href="#licores" class="fa-solid fa-bottle-water"></a>
+        <a href="#marcas" class="fa-solid fa-marker"></a>
+    </nav>
+
+    <div class="login-form-conntainer">
+
+        <div id="close-login-btn" class="fa-solid fa-circle-xmark"></div>
+
+        <form action="">
+            <h3>Iniciar Sesion</h3>
+            <span>Nombre de usuario</span>
+            <input type="email" name="" placeholder="Correo electronico" id="">
+            <span>Contraseña</span>
+            <input type="password" name="" placeholder="Escribe tu Contraseña" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Recordar</label>
+            </div>
+            <input type="submit" value="Iniciar sesion" class="btn">
+            <p>Has olvidado tu contraseña? <a href="#">has click aqui</a></p>
+            <p>No tienes cuenta? <a href="#">Create una</a></p>
+        </form>
+    </div>
+
+    <section class="inicio" id="inicio">
+
+        <div class="row">
+            <div class="content">
+                <h3>Hasta 75% de descuento</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at accusamus ad, minima veritatis
+                    nam quisquam voluptatum quasi veniam temporibus.</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+    </section>
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>Envío rápido</h3>
+                <p>pedido de más de $100</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Pago seguro</h3>
+                <p>100% pago seguro</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Devoluciones fáciles</h3>
+                <p>10 dias habiles</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>Soporte 24/7</h3>
+                <p>llámanos en cualquier momento</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="destacados">
+
+        <h1 class="heading"> <span>Licores Destacados</span> </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product1.jpeg" alt="" class="product-img">
+                        <h3 class="product-title">Cerveza Escudo</h3>
+                        <div class="price">$1550 </div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product1.jpeg" alt="" class="product-img">
+                        <h3 class="product-title">Cerveza Escudo</h3>
+                        <div class="price">$1550 </div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product3.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Six pack Corona</h3>
+                        <div class="price">$6000 </div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product3.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Six pack Corona</h3>
+                        <div class="price">$6000</div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product5.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Bebida energetica</h3>
+                        <div class="price">$1250</div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product6.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Bebida energetica</h3>
+                        <div class="price">$1250</div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product7.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Bebida energetica</h3>
+                        <div class="price">$1250</div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="./image/Product8.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Bebida energetica</h3>
+                        <div class="price">$1250</div>
+                        <a href="#" class="btn" id="boton-notificacion">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>Suscríbete para recibir las últimas actualizaciones</h3>
+            <input type="email" name="" placeholder="Tu correo" id="" class="box">
+            <input type="submit" value="Suscribete" class="btn">
+        </form>
+    </section>
+
+    <section class="arrivals" id="licores">
+
+        <h1 class="heading"><span>Los recién llegados</span></h1>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/PoductOr1.png" alt="" class="product-img">
+                        <h3 class="product-title">Absolut Vodka</h3>
+                        <div class="price">$12000 <span>$14500</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/ProductOr2.png" alt="" class="product-img">
+                        <h3 class="product-title">Jagermeilter</h3>
+                        <div class="price">$11000 <span>$13700</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/ProductOr3.png" alt="" class="product-img">
+                        <h3 class="product-title">Baylis</h3>
+                        <div class="price">$10000 <span>$12800</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/PN4.png" alt="" class="product-img">
+                        <h3 class="product-title">Smirnoff</h3>
+                        <div class="price">$7000 <span>$8100</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/PN5.png" alt="" class="product-img">
+                        <h3 class="product-title">Vino Longarotti</h3>
+                        <div class="price">$16000 <span>$18400</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/PN6.png" alt="" class="product-img">
+                        <h3 class="product-title">Jhonnie Walker</h3>
+                        <div class="price">$13200 <span>$14600</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="content">
+                        <img src="./image/PN7.png" alt="" class="product-img">
+                        <h3 class="product-title">Golden Flakes</h3>
+                        <div class="price">$20000<span>$25000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="deal">
+        <div class="content">
+            <h3>Oferta del dia</h3>
+            <h1>Hasta 50% de rebaja</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus soluta, veritatis enim velit
+                accusamus ad, quo architecto delectus natus, aliquam temporibus consequatur sint nisi at.</p>
+            <a href="#" class="btn">Comprar Ahora</a>
+        </div>
+
+        <div class="image">
+            <img src="./image/ProductO.png" alt="">
+        </div>
+    </section>
+
+    <section class="brands" id="marcas">
+        <h1 class="heading"><span>Marcas reconocias</span></h1>
+        <div class="swiper brands-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./image/Marca1.png" alt="">
+                    <h3>Duff</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id doloremque quos voluptates
+                        quia inventore!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/Marca2.png" alt="">
+                    <h3>Corona</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id doloremque quos voluptates
+                        quia inventore!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/Marca3.png" alt="">
+                    <h3>Heineken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id doloremque quos voluptates
+                        quia inventore!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/Marca4.png" alt="">
+                    <h3>Stella</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id doloremque quos voluptates
+                        quia inventore!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer" id="info">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Nuestras ubicaciones</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Calle Bio-Bio </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Av. Las Condes 2021 </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Av. Providencia 1822 </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Calle Carmen 1998 </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Pasaje #04 </a>
+            </div>
+
+            <div class="box">
+                <h3>Enlaces rápidos</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Inicio </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Destacados </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Licores </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Marcas </a>
+            </div>
+
+            <div class="box">
+                <h3>Enlaces extras</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Informacion de la cuenta </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Artículos pedidos </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Politicas de privacidad </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Método de pago </a>
+            </div>
+
+            <div class="box">
+                <h3>Contacto</h3>
+                <a href="#"><i class="fas fa-phone"></i> +56 9 95248563 </a>
+                <a href="#"><i class="fas fa-phone"></i> 222 222 222 </a>
+                <a href="#"><i class="fas fa-envelope"></i> Botilleriaspa@gmail.com </a>
+                <img src="./image/map.png" alt="" class="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-whatsapp"></a>
+        </div>
+
+        <div class="credit"> Creado por <span>Abner Medina</span> | Todos los derechos reservado! </div>
+    </section>
+
+
+    <div class="loader-container">
+        <img src="./image/Animated GIFs.gif" alt="">
+    </div>
+
+    <div class="cart">
+
+        <h2 class="cart-title">Carrito</h2>
+        <div class="cart-content">
+
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <a href="./Comprar.html"><button type="button" class="btn-buy" id="botton">Comprar ahora</button></a>
+        <i class="fa-solid fa-x" id="close-cart"></i>
+
+    </div>
+
+   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./alert.js"></script>
+    <script src="./cart.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
